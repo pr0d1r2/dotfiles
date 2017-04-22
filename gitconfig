@@ -1,0 +1,29 @@
+[alias]
+	st = "status -sb"
+	ci = commit
+	co = checkout
+	br = branch
+	di = diff
+	dih = diff HEAD
+	diw = "diff --word-diff"
+	upstream = !"git fetch origin -v; git fetch upstream -v; git merge upstream/master"
+	ln = log --pretty=format:'%Cblue%h %Cred* %C(yellow)%s'
+	s = show
+	pf = push --force-with-lease
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[user]
+	name = Marcin Nowicki
+	email = pr0d1r2@gmail.com
+	useconfigonly = true
+[push]
+	default = simple
+[branch]
+	autosetuprebase = always
+[rebase]
+	autosquash = true
+[core]
+	editor = /usr/bin/vim
