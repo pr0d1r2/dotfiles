@@ -4,6 +4,7 @@ for FILE in \
   editrc \
   gemrc \
   gitconfig \
+  gitignore \
 
 do
   ln -sf $D_R/$FILE $HOME/.$FILE || exit $?
