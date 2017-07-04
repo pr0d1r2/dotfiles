@@ -20,7 +20,7 @@
 	email = pr0d1r2@gmail.com
 	useconfigonly = true
 [push]
-	default = simple
+	default = current
 [branch]
 	autosetuprebase = always
 [rebase]
