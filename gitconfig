@@ -23,6 +23,7 @@
 	default = current
 [branch]
 	autosetuprebase = always
+	autoSetupMerge = always
 [rebase]
 	autosquash = true
 [core]
