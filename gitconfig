@@ -1,14 +1,20 @@
 [alias]
 	st = "status -sb"
+	a = add
+	c = commit
 	ci = commit
+	ca = commit --amend
 	co = checkout
 	br = branch
+	d = diff
 	di = diff
+	ds = diff --staged
 	dih = diff HEAD
 	diw = "diff --word-diff"
 	upstream = !"git fetch origin -v; git fetch upstream -v; git merge upstream/master"
 	ln = log --pretty=format:'%Cblue%h %Cred* %C(yellow)%s'
 	s = show
+	p = push
 	pf = push --force-with-lease
 [color]
 	branch = auto
