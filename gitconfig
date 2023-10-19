@@ -16,6 +16,7 @@
 	s = show
 	p = push
 	pf = push --force-with-lease
+	commti = commit
 [color]
 	branch = auto
 	diff = auto
